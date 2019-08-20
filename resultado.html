@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Resultado</title>
+		<meta charset="utf-8">
+		<script>
+			function voltar(){
+				var resposta=confirm("Deseja voltar?");
+				if(resposta){
+					location.href = "index.html";
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<h1>O resultado é: </h1>
+		<br>
+		<button type="button" onclick="voltar()">Voltar</button>
+	</body>
+</html>
