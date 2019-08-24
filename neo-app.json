@@ -8,7 +8,7 @@
     	"path": "api",
     	"target": {
     		"type": "destination",
-    		"name": "ExchangeRates"
+    		"name": "ExchangeRates" 
     	}
     }
   ]
